@@ -25,7 +25,7 @@ db.once('open', function(){
   app.use('/db', Mongo);
 });
 
-mongoose.connect('mongodb://localhost/queue');
+mongoose.connect('mongodb://heroku_8p8mq14v:8q07gjoss5q4ab8sf4aq93pa0u@ds113063.mlab.com:13063/heroku_8p8mq14v');
 
 
 //This launches the server on port 4000
